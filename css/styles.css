@@ -80,7 +80,7 @@ body {
 .blackTitle + p {
 	color: #3D3D3D;
 	margin-top: 30px;
-	height: 165px;
+	padding: 0px 0px 35px;
 }
 
 .blackBg h2 {
