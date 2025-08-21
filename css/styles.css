@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-	width: 1200px;
+	width: 1230px;
 	margin: 0 auto;
 }
 
@@ -218,5 +218,21 @@ body {
 	margin-bottom: 40px;
 }
 main {
+	padding: 0px 15px;
+	font-size: 0px;
+}
+article img {
+	height: 226px;
+	overflow: hidden;
+	padding: 15px;
+	border-radius: 15px;
+	object-fit: cover;
+}
+article {
 	font-size: 22px;
+	display: inline-block;
+	width: 33.33%;
+}
+.portfolio-images {
+	padding-bottom: 85px;
 }
