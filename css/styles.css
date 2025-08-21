@@ -1,0 +1,108 @@
+@import url('reset.css');
+
+body {
+    font-size: 16px;
+}
+.container {
+    text-align: center;
+    width: 1200px;
+    font-size: 0px;
+}
+.first-line {
+    background-color: #F6FFD4;
+}
+.first-line div {
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    width: 33.33%;
+    height: 400px;
+}
+
+.second-line {
+    background-color: #DAFBF7;
+    font-size: 0px;
+
+}
+div {
+    outline:#000000 solid 1px;
+}
+
+.second-left {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    width: 800px;
+    height: 400px;
+}
+
+.second-left div {
+    padding: 10px;
+    height: 200px;
+}
+.second-right {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    width:400px;
+} 
+.second-right div {
+    padding: 10px;
+    height: 133.3px;
+}
+
+.global-left {
+    vertical-align: top;
+    width:400px;
+    height:400px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.third-line {
+    font-size: 0px;
+    background-color: #F9E6F9;
+}
+.global-right {
+    width: 800px;
+    height: 400px;
+    display: inline-block;
+    font-size: 0px;
+    vertical-align: top;
+}
+
+.top-third {
+    vertical-align: top;
+    width: 800px;
+    height: 200px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.third-left{
+    vertical-align: top;
+    display: inline-block;
+    width: 400px;
+    font-size: 16px;
+}
+.third-left div {
+    height: 200px;
+    padding: 10px;
+}
+.third-right {
+    vertical-align: top;
+    display: inline-block;
+    width: 400px;
+    font-size: 16px;
+}  
+.third-right div {
+    height: 100px;
+    padding: 10px;
+} 
+
+
+.bottom-third {
+    vertical-align: top;
+    font-size: 0px;
+}
