@@ -6,5 +6,22 @@ body {
 .container {
     text-align: center;
     width: 1200px;
-    font-size: 0px;
+}
+
+.firstLine {
+    height: 400px;
+    background: #F6FFD4;
+}
+div {
+    height: 100%;
+    outline: solid 1px black;
+}
+.firstLine div {
+    float: left;
+    width: 400px;
+}
+
+.secondLine {
+    color: #DAFBF7;
+    height: 400px;
 }
