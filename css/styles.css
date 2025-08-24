@@ -22,6 +22,18 @@ div {
 }
 
 .secondLine {
-    color: #DAFBF7;
+    background:#DAFBF7;
     height: 400px;
+}
+
+.secondLine > div {
+    float: left;
+}
+.secondLeft div {
+    width: 800px;
+    height: 200px;
+}
+.secondRight div {
+    height: 33%;
+    width: 400px;
 }
