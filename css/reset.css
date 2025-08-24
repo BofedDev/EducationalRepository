@@ -117,3 +117,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+.clearFix::after {
+	content:"";
+	clear: both;
+	display: block;
+}
+

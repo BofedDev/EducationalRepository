@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-	width: 1200px;
+	width: 1230px;
 	margin: 0 auto;
 }
 
@@ -216,7 +216,7 @@ body {
 }
 
 .portfolio {
-	margin: 18px 0 0;
+	padding: 18px 0 85px;
 }
 .portfolio-title {
 	padding: 10px 0px;
@@ -226,7 +226,7 @@ body {
 }
 
 article img {
-	height: 226px;
+	height: 100%;
 	overflow: hidden;
 	padding: 15px;
 	border-radius: 15px;
@@ -234,13 +234,12 @@ article img {
 }
 article {
 	font-size: 22px;
-
-	display: inline-block;
+	float: left;
 	width: 33.33%;
 }
 .portfolio-images {
 	font-size: 0px;
-	padding-bottom: 85px;
+	margin: 0px -15px;
 }
 
 .information {
