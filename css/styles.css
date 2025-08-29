@@ -8,69 +8,41 @@ body {
     text-align: center;
     width: 1200px;
     margin: auto;
-}
-
-.firstLine {
     height: 400px;
-    background: #F6FFD4;
+    display:flex;
 }
 div {
-    height: 100%;
+    box-sizing: border-box;
     outline: solid 1px black;
+    overflow: hidden;
 }
-p {
-    padding: 20px;
+.firstLine {
+    background: #F6FFD4;
 }
-.firstLine div {
-    float: left;
-    width: 400px;
-}
-
 .secondLine {
-    background:#DAFBF7;
-    height: 400px;
+    background-color: #DAFBF7;
 }
-
-.secondLine > div {
-    float: left;
-}
-.secondLeft div {
+.secondLeft div{
     width: 800px;
-    height: 200px;
+    height: 50%;
 }
 .secondRight div {
-    height: 33.333333%;
     width: 400px;
+    height: 33.333334%;
 }
-
-.thirdLine {
-    background: #F9E6F9;
+.thirdTop {
+    height: 200px;
+}
+.thirdLeft div{
     height: 400px;
 }
-
-.thirdLine > div {
-    float: left;
+.thirdLine {
+    background-color: #F9E6F9;
 }
-
-.thirdLeft {
-    width: 400px;
-}
-
-.thirdTop {
-    width: 800px;
-    height: 200px;
-}
-
 .thirdDown {
-    width: 800px;
     height: 200px;
+    display:flex;
 }
-
-.thirdDown > div {
-    float: left;
-    width: 400px;
-}
-
-.thirdDown div + div div {
-    height: 100px;
+.downRight div{
+    height: 50%;
 }
