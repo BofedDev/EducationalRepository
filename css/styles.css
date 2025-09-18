@@ -156,6 +156,7 @@ body::after {
     appearance: none;
     background: transparent;
     position: relative;
+    cursor: pointer;
 }
 .confirmation input:checked::after {
     content: '';
