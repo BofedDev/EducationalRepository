@@ -170,6 +170,7 @@ body::after {
 
 .confirmation label {
     color: var(--brand-color);
+    cursor: pointer;
 }
 a {
     color: #FFFF;
